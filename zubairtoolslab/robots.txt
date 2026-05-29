@@ -1,0 +1,72 @@
+# ===================================
+# ZubairToolsLab - Robots.txt
+# Optimized for Search Engine Crawling
+# ===================================
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /pages/
+Allow: /blogs/
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+
+# Disallow admin or private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Sitemap location
+Sitemap: https://zubairtoolslab.com/sitemap.xml
+
+# Crawl-delay for polite crawling (optional)
+Crawl-delay: 1
+
+# Specific rules for Googlebot
+User-agent: Googlebot
+Allow: /
+Allow: /*.html$
+Allow: /*.css$
+Allow: /*.js$
+
+# Specific rules for Bingbot
+User-agent: Bingbot
+Allow: /
+Allow: /*.html$
+
+# Block access to certain file types
+Disallow: /*.tmp$
+Disallow: /*.bak$
+Disallow: /*.log$
+
+# Allow all major search engines
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: facebot
+Allow: /
+
+User-agent: ia_archiver
+Allow: /
+
+# Rate limiting (optional, adjust based on server capacity)
+# Crawl-delay: 0.5
