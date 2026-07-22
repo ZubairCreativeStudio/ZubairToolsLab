@@ -1,0 +1,23 @@
+# Robots.txt for Home Decor Ideas
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /pages/
+Allow: /blog/
+Allow: /sitemap/
+
+# Sitemap location
+Sitemap: https://homedecorideas.com/sitemap/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Disallow admin or private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*?*sort=
+Disallow: /*?*filter=
